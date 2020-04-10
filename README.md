@@ -1,4 +1,4 @@
-## 2D Image Encryption using Chaos Theory
+## Image Encryption using Chaos Theory
 
 A notebook that uses the concepts of the Logistic and Lorenz maps to encrypt images quickly and efficiently. 
 
