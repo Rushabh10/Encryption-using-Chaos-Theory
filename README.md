@@ -11,9 +11,18 @@ A notebook that uses the concepts of the Logistic and Lorenz maps to encrypt ima
 
 Since the Logistic and Lorenz functions rely heavily on the initial values, if they key is off by an order of 10^-5, the image will not get decrypted.
 
+### Running instructions -
+The following libraries/packages need to be installed:
+tensorflow, numpy, matplotlib, PIL, scipy, PyQt5, pandas
+1) Run the img_screen.py file
+2) Choose an image by entering it's path into the textbox and pressing "Select"
+3) Enter the key and press encrypt/decrypt to see the result
+4) As of now, all encrypted images are saved as "test_1.png" and decrypted images as "orig_1.png"
+
 ### Bugs & Improvements -
-1) Extend the functionality to make it work for 3D images too (ones with depth for RGB values)
-2) Improve the computations involved in making TM so that the encrypted image looks more like noise
+1) Improve the computations involved in making TM so that the encrypted image looks more like noise
+2) Currently saving the numpy array of the encrypted image separately, not sure how to save a 2 channel array as an image
+3) UI improvements
 
 ### Contributors 
 1) Rushabh Musthyala (Rushabh10)
