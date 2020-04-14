@@ -6,7 +6,6 @@ import matplotlib.image as mpimg
 from PIL import Image
 from scipy.integrate import odeint
 from PyQt5 import QtCore, QtGui, QtWidgets
-import pandas as pd
 
 def encrypt(img, key, itera):
     
